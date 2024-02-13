@@ -28,9 +28,14 @@ var nombre = prompt("Ingrese su nombre, por favor")
 var edad = prompt("¿Cuantos años tiene?", "Ingrese solamente números ")
 //convirtiendo las edades ingresadas a números 
 var edad_numero = parseInt(edad)
-if (edad_numero < 18 ){
+while (edad_numero < 18 ){
   alert ("La aseguradora no cubre a menores de 18 años")
-}
+  if (edad_numero < 18){
+    prompt ("ingrese edad valida");
+  } else {
+
+  } var edad = prompt("¿Cuantos años tiene?", "Ingrese solamente números ")
+} 
 
 var casado = prompt("¿Está casado actualmente?", "si/no")
 //Comprobamos la edad del cónyuge, solamente si se está casado/a
